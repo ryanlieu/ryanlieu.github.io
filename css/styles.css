@@ -8,17 +8,18 @@ body{
 
 #profImage{
 	position:fixed;
-	width:275px;
-	height:660px;
+	width:295px;
+	height:708px;
 	float:right;
-	right:5em;
+	right:10vw;
 	bottom:0;
 }
 
 #bodyText{
+    color:#19191A;
 	text-align:left;
 	width:40em;
-	padding-top:5em;
+	padding-top:4em;
 	padding-left:6em;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -38,18 +39,35 @@ body{
 }
 
 
+#icons{
+    margin-right: 1em;
+    font-size: 2em;
+}
+
+.mouse:hover{
+    transition: all 0.2s ease;
+    color:#2ecc71;
+}
+
 @media only screen and (max-width: 1110px) {
     #profImage{
     	display:none;
     }
     #bodyText{
     	padding:0;
-		padding-top:2em;
+		padding-top:1.5em;
     	width:75%;
     	margin:auto;
     }
 }
-
+p{
+    font-weight:300;
+}
+a {
+    color:#19191A;
+    font-weight:400;
+    text-decoration: none;
+}
 
 @keyframes fadein {
     from { opacity: 0; }
