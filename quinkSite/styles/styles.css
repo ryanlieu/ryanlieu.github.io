@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding:0px;
+	margin:0px;
+	background-color:#292E62;
+	height:1200px;
+}
+
+@font-face {
+	font-family:roboto-bold;
+	src:url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+	font-family:roboto-regular;
+	src:url(../fonts/Roboto-Regular.ttf);
+}
+
+#logo {
+	display:block;
+	margin:0px auto;
+	margin-top:90px;
+	width:100px;
+	height:auto;
+}
+
+#quinkname {
+	color:white;
+	font-family:roboto-bold;
+	text-align:center;
+	margin:0px;
+	font-size:78px;
+}
+
+#namesub {
+	font-family:roboto-regular;
+	color:white;
+	width:44%;
+	font-size:16px;
+	text-align:center;
+	display:block;
+	margin:0px auto;
+	padding:10px 0px 40px 0px;
+}
+
+.request {
+	width:200px;
+	height:32px;
+	border:2px white solid;
+	border-radius: 2px;
+	display:block;
+	margin:0px auto;
+	font-family:roboto-bold;
+	color:white;
+	text-align:center;
+	padding-top:15px;
+	font-size:14px;
+	transition:ease all .2s;
+	cursor:pointer;
+	text-decoration:none!important;
+}
+
+.request:hover {
+	background-color:white;
+	color:#292E62;
+}
+
+#downarrow {
+	display:block;
+	margin:0px auto;
+	padding-top:80px;
+	height:48px;
+	width:48px;
+	padding-bottom:110px;
+}
+
+#tryitout {
+	font-family: roboto-bold;
+	color:white;
+	text-align:left;
+	font-size:54px;
+	padding-bottom:0px;
+	margin:0px 0px 0px 125px;
+}
+
+#trybottom {
+	color:white;
+	font-family:roboto-regular;
+	text-align:left;
+	padding-bottom:80px;
+	font-size:20px;
+	margin:0px 0px 0px 125px;
+}
+
+#links {
+	height:190px;
+	width:300px;
+	background-color:white;
+	text-align:center;
+	border-radius:2px;
+	margin:160px 0px 0px 25%;
+	padding:20px;
+	font-family:roboto-regular;
+}
+
+a {
+	color:white;
+	font-size:22px;
+	font-family:roboto-regular;
+	margin-left:125px;
+}
+
+a:hover {
+	color:#999999;
+	transition:ease all .2s;
+}

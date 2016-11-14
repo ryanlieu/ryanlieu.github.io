@@ -1,26 +1,31 @@
 body{
 	font-family: 'Rubik',sans-serif;
-	padding:0px;
-	margin:0px;
-	border:0px;
+	padding:0em;
+	margin:0em;
+	border:0em;
 	background-color: #E9F4FF;
 }
 
 #profImage{
 	position:fixed;
-	width:295px;
-	height:708px;
+	width:21.25vw;
+	height:51vw;
 	float:right;
 	right:10vw;
 	bottom:0;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
 }
 
 #bodyText{
     color:#19191A;
 	text-align:left;
 	width:40em;
-	padding-top:4em;
-	padding-left:6em;
+	padding-top:1em;
+	padding-left:4.5em;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
     -ms-animation: fadein 2s; /* Internet Explorer */
@@ -30,18 +35,21 @@ body{
 
 #titleText{
 	font-weight:500;
-	font-size: 3.5em;
+	font-size: 3.4em;
+    margin-bottom:0;
+    border-bottom:0;
+    padding-bottom:0;
 }
 
 #subHead{
 	font-weight:500;
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 
 
 #icons{
     margin-right: 1em;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 .mouse:hover{
@@ -55,9 +63,10 @@ body{
     }
     #bodyText{
     	padding:0;
-		padding-top:1.5em;
-    	width:75%;
+    	width:85%;
     	margin:auto;
+        margin-top:-1em;
+
     }
 }
 p{

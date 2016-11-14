@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family:helveticabold;
+	src:url(../fonts/HelveticaNeue-Bold.otf);
+}
+
+@font-face {
+	font-family:helveticalight;
+	src:url(../fonts/helveticaneuelight.ttf);
+}
+
+#quinktooltip * {
+	margin:0 !important;
+    padding:0 !important;
+    border:0 !important;
+    outline:0 !important;
+    font-size:100% !important;
+    vertical-align:baseline !important;
+    background:transparent !important;
+    text-align:left !important;
+    line-height:1.3em !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+#quinktooltip p {
+	font-family:helveticabold !important;
+	padding:9px 10px 0px 10px !important;
+	margin:0px !important;
+	height:auto !important;
+	color:white !important;
+	background-color:#333333 !important;
+	text-align:left !important;
+	font-size:17px!important;
+}
+
+#quinktooltip #quinksource {
+	font-family:helveticalight !important;
+	padding:0px 10px 9px 10px !important;
+	margin:0px !important;
+	height:auto !important;
+	color:white !important;
+	background-color:#333333 !important;
+	text-align:left !important;
+	font-size:14px!important;
+}
+
+#quinktooltip ul li {
+	font-family:helveticalight !important;
+	color:#222222 !important;
+	padding:9px 10px 9px 10px !important;
+	font-size:15px !important;
+	list-style-type:none !important;
+}
+
+#quinktooltip a {
+	color:white!important;
+}
+
+#quinktooltip #quinktwitter {
+	float:left!important;
+	height:30px!important;
+	width:33.3%!important;
+	margin:0px!important;
+	padding:0px!important;
+	background-color:#3cf!important;
+	color:white !important;
+	font-family:helveticabold !important; 
+	text-align:center !important;
+	font-size:14px!important;
+	cursor:pointer !important;
+	padding-top:7px!important;
+}
+
+#quinktooltip #quinktwitter:hover {
+	background-color:#65d2fa!important;
+}
+
+#quinktooltip #quinkreddit {
+	float:left!important;
+	height:30px!important;
+	width:33.3%!important;
+	margin:0px!important;
+	padding:0px!important;
+	background-color:#ff8b60!important;
+	color:white !important;
+	font-family:helveticabold !important; 
+	text-align:center !important;
+	font-size:14px!important;
+	cursor:pointer !important;
+	padding-top:7px!important;
+}
+
+#quinktooltip #quinkreddit:hover {
+	background-color:#f8a386!important;
+}
+
+#quinktooltip #quinkfacebook {
+	float:left!important;
+	height:30px!important;
+	width:33.3%!important;
+	margin:0px!important;
+	padding:0px!important;
+	background-color:#3b5998!important;
+	font-family:helveticabold !important;
+	color:white !important;
+	text-align:center !important;
+	font-size:14px!important;
+	cursor:pointer!important;
+	padding-top:7px!important;
+}
+
+#quinktooltip #quinkfacebook:hover {
+	background-color:#4f6ba5!important;
+}
+
+#quinktooltip #quinktwitter2 {
+	float:left!important;
+	height:30px!important;
+	width:125px!important;
+	margin:0px!important;
+	padding:0px!important;
+	background-color:#3cf!important;
+	color:white !important;
+	font-family:helveticabold !important; 
+	text-align:center !important;
+	font-size:14px!important;
+	cursor:pointer !important;
+	padding-top:6px!important;
+}
+
+#quinktooltip #quinktwitter2:hover {
+	background-color:#65d2fa!important;
+}
+
+#quinktooltip #quinkreddit2 {
+	float:left!important;
+	height:30px!important;
+	width:125px!important;
+	margin:0px!important;
+	padding:0px!important;
+	background-color:#ff8b60!important;
+	color:white !important;
+	font-family:helveticabold !important; 
+	text-align:center !important;
+	font-size:14px!important;
+	cursor:pointer !important;
+	padding-top:6px!important;
+}
+
+#quinktooltip #quinkreddit2:hover {
+	background-color:#f8a386!important;
+}
+
+#quinktooltip #quinkfacebook2 {
+	float:left!important;
+	height:30px!important;
+	width:125px!important;
+	margin:0px!important;
+	padding:0px!important;
+	background-color:#3b5998!important;
+	font-family:helveticabold !important;
+	color:white !important;
+	text-align:center !important;
+	font-size:14px!important;
+	cursor:pointer!important;
+	padding-top:6px!important;
+}
+
+#quinktooltip #quinkfacebook2:hover {
+	background-color:#4f6ba5!important;
+}
+
+
