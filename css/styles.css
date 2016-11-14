@@ -50,8 +50,8 @@ body{
 #icons{
     margin-right: 1em;
     font-size: 1.8em;
-    padding-top:.5em;
-    padding-bottom:.5em;
+    padding-top:1em;
+    padding-bottom:1em;
 }
 
 .mouse:hover{
