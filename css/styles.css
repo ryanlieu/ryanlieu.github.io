@@ -50,6 +50,8 @@ body{
 #icons{
     margin-right: 1em;
     font-size: 1.8em;
+    padding-top:.5em;
+    padding-bottom:.5em;
 }
 
 .mouse:hover{
@@ -57,7 +59,7 @@ body{
     color:#2ecc71;
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 1000px) {
     #profImage{
     	display:none;
     }
@@ -65,7 +67,6 @@ body{
     	padding:0;
     	width:85%;
     	margin:auto;
-        margin-top:-1em;
 
     }
 }
