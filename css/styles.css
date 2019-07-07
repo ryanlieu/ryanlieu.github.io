@@ -1,33 +1,25 @@
 body {
-	font-family: 'Rubik',sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	padding: 0em;
 	margin: 0em;
 	border: 0em;
-	background-color: #E9F4FF;
+	background-color: #f8f9fa;
 }
 
 #profImage{
 	position: fixed;
-	width: 40vh;
+	width: 71.5vh;
 	height: 95vh;
 	float: right;
-	right: 100px;
+	right: 10vw;
 	bottom: 0;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
 }
 
 #bodyText{
-  color: #19191A;
+  color: #212529;
 	text-align: left;
 	width: 40em;
 	padding-left: 4.5em;
-	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  animation: fadein 2s;
 }
 
 #titleText{
@@ -75,21 +67,4 @@ a {
   color: #19191A;
   font-weight: 400;
   text-decoration: none;
-}
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
 }
