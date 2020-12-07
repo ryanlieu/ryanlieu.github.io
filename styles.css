@@ -17,7 +17,7 @@ body {
 }
 
 #textWrapper {
-  margin: 32px;
+  margin: 16px;
   font-size: 18px;
   width: 600px;
   margin: 64px;
@@ -25,6 +25,7 @@ body {
 
 @media screen and (max-width: 800px) { 
   #textWrapper {
+    margin: 32px;
     width: 100%;
     font-size: 24px;
   }
