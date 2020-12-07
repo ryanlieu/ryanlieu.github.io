@@ -19,15 +19,21 @@ body {
 #textWrapper {
   margin: 32px;
   font-size: 18px;
+  width: 600px;
+  margin: 64px;
 }
 
-@media (min-width: 800px) { 
+@media screen and (max-width: 800px) { 
   #textWrapper {
-    width: 600px;
-    margin: 64px;
+    width: 100%;
+    font-size: 24px;
   }
 }
 
 p {
   margin-top: 0;
+}
+
+a {
+  color: white;
 }
